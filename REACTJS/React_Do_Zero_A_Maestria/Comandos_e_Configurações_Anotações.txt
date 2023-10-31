@@ -1,0 +1,28 @@
+<!--Programas necessários -->
+
+/*---------------------------------------NojeJs-----------------------------------------------*/
+>>Comandos
+  >> node --version //verificar a versão do node instalado
+
+
+
+/*----------------------------------------Npm-------------------------------------------------*/
+>>Comandos 
+  >> npm --version //verificar a versão do nmp instalado 
+-- Visual Studio Code
+
+
+
+/*-----------------------------------------Git------------------------------------------------*/
+>>Comandos 
+  >> git --version //verificar a versão do git instalado
+  
+  
+/*Comandos Projeto*/  
+
+
+/*---------- ------------Criação do projeto com Vite ou node-module---------------------------*/
+npm create vite@latest <nome> >> cd <nome> >> npm install >> npm run dev
+
+npx create-react-app <nome> >> npm start
+
