@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css';
+import FirstComponets from './components/FirstComponets';
 
 const App = () => {
   return (
     <div className='App'>
-      <h1>
-        Components
-      </h1>
+      <FirstComponets />
+
     </div>
   )
 }
