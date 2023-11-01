@@ -7,6 +7,7 @@ import './App.css';
 import FirstComponets from './components/FirstComponets';
 import TemplateExpression from './components/TemplateExpression';
 import MyComponent from './components/MyComponent';
+import Events from './components/Events';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <FirstComponets />
       <TemplateExpression />
       <MyComponent />
+      <Events />
     </div>
   )
 }
