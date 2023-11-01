@@ -16,7 +16,7 @@ const App = () => {
       <FirstComponets />
       <TemplateExpression />
       <MyComponent />
-      <Events />
+      <Events />  
     </div>
   )
 }
