@@ -1,5 +1,8 @@
 import React from 'react'
 
+// components
+import MyComponent from './MyComponent'
+
 // arquivo de estilo
 
 const FirstComponets = () => {
@@ -13,6 +16,7 @@ const FirstComponets = () => {
         <div>
             {/* Algum comentário */}
             <h1>Meu primeiro componente</h1>
+            <MyComponent />
         </div>
     )
 }
