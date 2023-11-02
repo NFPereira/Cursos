@@ -5,6 +5,7 @@ import './App.css'
 
 import City from './assets/city.jpg';
 import ManageData from './components/ManageData';
+import ListRender from './components/ListRender';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <img src={City} alt="Cidade" width="100%" />
       </div>
       <ManageData />
+      <ListRender />
     </>
   )
 }
