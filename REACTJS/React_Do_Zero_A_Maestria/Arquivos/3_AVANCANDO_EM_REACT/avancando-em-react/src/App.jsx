@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 
 //CSS
 import './App.css'
@@ -12,6 +12,7 @@ import ListRender from './components/ListRender';
 import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
 import CarsDetail from './components/CarsDetail';
+import Fragmentacao from './components/Fragment';
 
 const App = () => {
   const nome = "Nilson F. Pereira"
@@ -46,8 +47,10 @@ const App = () => {
       <ShowUserName name={userName} />
       {/* loop em array de objetos */}
       {cars.map((item) => (
-        <CarsDetail keyId={item.id} marca={item.brand} cor={item.color} newCar={item.newCar} km={item.km}/>
+        <CarsDetail keyId={item.id} marca={item.brand} cor={item.color} newCar={item.newCar} km={item.km} />
       ))}
+      {/* fragment */}
+      <Fragmentacao propFragment="teste" />
     </>
   )
 }
