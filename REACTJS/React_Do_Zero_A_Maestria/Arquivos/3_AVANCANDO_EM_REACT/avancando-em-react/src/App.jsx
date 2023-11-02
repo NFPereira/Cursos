@@ -11,6 +11,7 @@ import ManageData from './components/ManageData';
 import ListRender from './components/ListRender';
 import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
+import CarsDetail from './components/CarsDetail';
 
 const App = () => {
   const nome = "Nilson F. Pereira"
@@ -36,6 +37,7 @@ const App = () => {
       <ShowUserName name={nome} />
       {/*Passando valor por state*/}
       <ShowUserName name={userName} />
+      <CarsDetail marca="VW" km={10000} cor="Azul" />
     </>
   )
 }
