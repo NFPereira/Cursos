@@ -6,7 +6,6 @@ const ManageData = () => {
 
 
    const[number, setNumber] = useState(15)
-5
    return (
       <>
       <div>
