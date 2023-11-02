@@ -17,6 +17,13 @@ const App = () => {
   const nome = "Nilson F. Pereira"
   const [userName] = useState("Nilson Flávio Pereira");
 
+  const cars = [
+    { id: 1, brand: "Ferrari", color: "Amarela", newCar: true, km: 0 },
+    { id: 2, brand: "KIA", color: "Branco", newCar: false, km: 34343 },
+    { id: 3, brand: "Renault", color: "azul", newCar: false, km: 25871 },
+  ]
+
+
   return (
     <>
       <div><h1>Avançando em React</h1></div>
@@ -37,10 +44,10 @@ const App = () => {
       <ShowUserName name={nome} />
       {/*Passando valor por state*/}
       <ShowUserName name={userName} />
-      <CarsDetail marca="VW" km={10000} cor="Azul" newCar={false} />
-      {/*Reaproveitamento*/}
-      <CarsDetail marca="Ford" km={0} cor="Vermelha" newCar={true} />
-      <CarsDetail marca="Fiat" km={4500} cor="Branco" newCar={false} />
+      {/* loop em array de objetos */}
+      {cars.map((item) => (
+        <CarsDetail keyId={item.id} marca={item.brand} cor={item.color} newCar={item.newCar} km={item.km}/>
+      ))}
     </>
   )
 }

@@ -9,21 +9,22 @@ const ListRender = () => {
       { id: 3, name: "Noeli", age: 44 },
    ])
 
-   const deleteRandom = () =>{
+   const deleteRandom = () => {
       const randonNumber = Math.floor(Math.random() * 4);
 
 
-      
-      setUsers((prevUsers)=>{
+
+      setUsers((prevUsers) => {
          console.log(prevUsers);
-         return prevUsers.filter((user)=> randonNumber !== user.id)
+         return prevUsers.filter((user) => randonNumber !== user.id)
       })
    }
 
 
    return (
       <>
-         <div>ListRender</div>
+         <div><h2>ListRender</h2></div>
+
          <ul>
             {list.map((item, index) => (
                <li key={index}>{index} - {item}</li>
@@ -40,6 +41,6 @@ const ListRender = () => {
          <button onClick={deleteRandom}>Delete Users</button>
       </>
    )
-   }
+}
 
-   export default ListRender
+export default ListRender
