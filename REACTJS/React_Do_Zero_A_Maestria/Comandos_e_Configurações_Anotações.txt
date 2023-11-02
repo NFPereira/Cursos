@@ -1,27 +1,31 @@
-<!--Programas necessários -->
+<!--Programas necessï¿½rios -->
 
 /*---------------------------------------NojeJs-----------------------------------------------*/
 >>Comandos
-  >> node --version //verificar a versão do node instalado
+  >> node --version //verificar a versï¿½o do node instalado
 
 
 
 /*----------------------------------------Npm-------------------------------------------------*/
 >>Comandos 
-  >> npm --version //verificar a versão do nmp instalado 
+  >> npm --version //verificar a versï¿½o do nmp instalado 
 -- Visual Studio Code
 
 
 
 /*-----------------------------------------Git------------------------------------------------*/
 >>Comandos 
-  >> git --version //verificar a versão do git instalado
+  >> git --version //verificar a versï¿½o do git instalado
+
+  git add . --adiciona os arquivos git
+  git commit -m "Titulo do commit" --insere as alteraÃ§Ãµes no git
+  git push origin main --efetiva a gravaÃ§Ã£o das alteraÃ§Ãµes no git
   
   
 /*Comandos Projeto*/  
 
 
-/*---------- ------------Criação do projeto com Vite ou node-module---------------------------*/
+/*---------- ------------Criaï¿½ï¿½o do projeto com Vite ou node-module---------------------------*/
 npm create vite@latest <nome> >> cd <nome> >> npm install >> npm run dev
 
 npx create-react-app <nome> >> npm start
