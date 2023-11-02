@@ -37,7 +37,10 @@ const App = () => {
       <ShowUserName name={nome} />
       {/*Passando valor por state*/}
       <ShowUserName name={userName} />
-      <CarsDetail marca="VW" km={10000} cor="Azul" />
+      <CarsDetail marca="VW" km={10000} cor="Azul" newCar={false} />
+      {/*Reaproveitamento*/}
+      <CarsDetail marca="Ford" km={0} cor="Vermelha" newCar={true} />
+      <CarsDetail marca="Fiat" km={4500} cor="Branco" newCar={false} />
     </>
   )
 }

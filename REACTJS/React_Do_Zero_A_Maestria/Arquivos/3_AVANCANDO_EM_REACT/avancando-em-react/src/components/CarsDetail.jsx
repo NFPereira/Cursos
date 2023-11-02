@@ -1,7 +1,7 @@
 import React from 'react'
 
-/* Detructuring em props */
-const CarsDetail = ({marca, km, cor}) => {
+/* Destructuring em props */
+const CarsDetail = ({marca, km, cor, newCar}) => {
    return (
       <div>
          <h1>Detalhes do carro</h1>
@@ -10,6 +10,7 @@ const CarsDetail = ({marca, km, cor}) => {
             <li>KM: {km}</li>
             <li>Cor: {cor}</li>
          </ul>
+         {newCar && <p>Este carro é novo!</p> }
       </div>
    )
 }
