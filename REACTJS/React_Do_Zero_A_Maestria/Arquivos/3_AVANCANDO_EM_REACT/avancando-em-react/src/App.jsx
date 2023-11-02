@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 //CSS
 import './App.css'
 
+//Imagens
 import City from './assets/city.jpg';
+
+//Componentes
 import ManageData from './components/ManageData';
 import ListRender from './components/ListRender';
 import ConditionalRender from './components/ConditionalRender';
+import ShowUserName from './components/ShowUserName';
 
 const App = () => {
+  const nome = "Nilson F. Pereira"
+  const [userName] = useState("Nilson Flávio Pereira");
+
   return (
     <>
       <div><h1>Avançando em React</h1></div>
@@ -23,6 +30,12 @@ const App = () => {
       <ManageData />
       <ListRender />
       <ConditionalRender />
+      {/*Passando valor direto*/}
+      <ShowUserName name="Nilson" />
+      {/*Passando valor por variável*/}
+      <ShowUserName name={nome} />
+      {/*Passando valor por state*/}
+      <ShowUserName name={userName} />
     </>
   )
 }
