@@ -17,6 +17,7 @@ import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
 import Message from './components/Message';
 import ChangeMessageState from './components/ChangeMessageState';
+import UserDetails from './components/UserDetails';
 
 const App = () => {
   const nome = "Nilson F. Pereira"
@@ -37,6 +38,12 @@ const App = () => {
   const handleMessage = (msg) => {
     setMessage(msg);
   }
+
+  const users = [
+    { id: 1, nome: "Nilson Flávio Pereira", idade: 38, sexo: "Masculino", job: "Programador" },
+    { id: 2, nome: "Nilton Rogério Pereira", idade: 41, sexo: "Masculino", job: "Despachante" },
+    { id: 3, nome: "Noeli Pereira", idade: 44, sexo: "Feminino", job: "Funcionária Pública" },
+  ]
 
   return (
     <>
@@ -76,6 +83,10 @@ const App = () => {
       <ExecuteFunction myFunction={showMessage} />
       <Message msg={message} />
       <ChangeMessageState handleMessage={handleMessage} />
+      {/* Desafio 4*/}
+      {users.map((user) => (
+        <UserDetails key={user.id} name={user.nome} idade={user.idade} sexo={user.sexo} job={user.job} />
+      ))}
     </>
   )
 }
