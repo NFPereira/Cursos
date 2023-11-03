@@ -13,6 +13,7 @@ import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
 import CarsDetail from './components/CarsDetail';
 import Fragmentacao from './components/Fragment';
+import Container from './components/Container';
 
 const App = () => {
   const nome = "Nilson F. Pereira"
@@ -51,6 +52,13 @@ const App = () => {
       ))}
       {/* fragment */}
       <Fragmentacao propFragment="teste" />
+      {/* children*/}
+      <Container myValue="texting">
+      <p>Este é o Título do container</p>
+      </Container>
+      <Container myValue="texting 2">
+      <p>Testando o container</p>
+      </Container>
     </>
   )
 }
