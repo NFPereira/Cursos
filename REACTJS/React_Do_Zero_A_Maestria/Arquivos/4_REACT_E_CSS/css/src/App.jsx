@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MyComponents from './components/MyComponents'
+import Title from './components/Title'
 
 function App() {
   const n = 10;
@@ -24,12 +25,14 @@ function App() {
         {/* CSS Inline dinamico */}
         <h2 style={n < 10 ? ({ color: "green" }) : ({ color: "#ffbb33" })}>Css style dinâmico</h2>
 
-        <h2 style={name === "Nilson" ? ({color:"#fff", background:"red"}) : ({color: "#000", background: "blue"})}>{name}</h2>
+        <h2 style={name === "Nilson" ? ({ color: "#fff", background: "red" }) : ({ color: "#000", background: "blue" })}>{name}</h2>
 
         {/* Classe dinâmica */}
-        <h2 className={redTitle ? "red-title": "title"}>
+        <h2 className={redTitle ? "red-title" : "title"}>
           Este título via ter classe dinâmica
         </h2>
+        {/* CSS Modules */}
+        <Title />
       </div>
     </>
   )
