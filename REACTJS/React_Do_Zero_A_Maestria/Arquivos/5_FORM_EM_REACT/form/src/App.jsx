@@ -9,7 +9,7 @@ function App() {
     <>
     <div className="App">
       <h2>Forms</h2>
-      <MyForms />
+      <MyForms user={{name:"Nilson Flávio Pereira", email:"nilsonfpereira@hotmail.com", bio:"Sou um programador", role:"admin"}}/>
     </div>
     </>
   )
