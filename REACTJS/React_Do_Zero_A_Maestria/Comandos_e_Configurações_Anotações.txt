@@ -27,6 +27,12 @@
 
 /*---------- ------------Cria��o do projeto com Vite ou node-module---------------------------*/
 npm create vite@latest <nome> >> cd <nome> >> npm install >> npm run dev
+npm i react-router-dom 
+npm i json-server
 
+package.json/scripts    
+"server": "json-server --watch data/db.json"
+npm run server
 npx create-react-app <nome> >> npm start
+
 

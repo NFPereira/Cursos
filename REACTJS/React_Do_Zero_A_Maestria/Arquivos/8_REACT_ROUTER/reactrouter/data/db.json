@@ -1,0 +1,19 @@
+{
+   "products": [
+      {
+         "id": 1,
+         "name": "Notebook Dell Core I7",
+         "price": 2000
+      },
+      {
+         "id": 2,
+         "name": "Kit Teclado/Mouse sem fio Microsoft",
+         "price": 199
+      },
+      {
+         "id": 3,
+         "name": "Monitor 29 Polegadas LG",
+         "price": 1100
+      }
+   ]
+}

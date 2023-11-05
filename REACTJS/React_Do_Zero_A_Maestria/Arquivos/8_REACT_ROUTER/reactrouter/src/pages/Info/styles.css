@@ -1,0 +1,11 @@
+.info h2{
+   text-align: center;
+   width: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px auto;
+   background-color: red;
+   padding: 10px;
+   color: #fff;
+}
