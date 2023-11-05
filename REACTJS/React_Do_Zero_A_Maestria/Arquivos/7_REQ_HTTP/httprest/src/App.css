@@ -1,0 +1,16 @@
+.add_product{
+  border-top: 1px solid #000;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  display: flex;
+  flex-direction: colum;
+  margin-bottom: 10px;
+}
