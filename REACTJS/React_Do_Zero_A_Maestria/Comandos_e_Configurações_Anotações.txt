@@ -36,3 +36,12 @@ npm run server
 npx create-react-app <nome> >> npm start
 
 
+/*Configuração vscode*/
+Identação da arvore: File/Preferences/Settings/ tree indent / 8 para 24 ou desejável
+
+//Extensão
+prettier >> Formatação do codigo 
+atalho para formatação >> tab + alt + f
+atalho para comentar código ctrl + k + c
+
+
