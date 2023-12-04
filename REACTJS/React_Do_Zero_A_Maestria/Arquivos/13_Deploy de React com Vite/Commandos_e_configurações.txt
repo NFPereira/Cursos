@@ -22,3 +22,30 @@ Repositório: miniblog
 
 
 7- No repositório, clique em Settings/Pages onde gerará o link para acesso
+
+https://nfpereira.github.io/
+
+----------------------------------------------------------------------------
+Deploy de react no Vercel
+
+1- Acessar o site vercel.com e criar uma conta escolher a opçpão Hobby e informar o nome.
+
+2- Escolher a forma de acesso (Pode ser o GitHub).
+
+3- No VsCode, abrir o projeto no terminal 
+
+4- Digitar o comando npm i -g vercel
+
+5- Após instalação digite vercel e y para fazer o deploy
+
+6- Escolher a forma de autenticação e y
+
+7- Responder se o link do projeto já existe = nfpereira
+
+8- Deseja modificar as configurações = n
+
+Iniciará o deploy e na sequência gerará o link de acesso
+
+https://vercel.com/nilson-flavio-pereiras-projects/secretword/3r8aJcxj6Q7gEHtB5aLczv3QLzka
+
+caso realize alguma alteração no projeto, após salvar, só digitar vercel, que atualizará o deploy.
