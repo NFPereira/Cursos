@@ -1,6 +1,7 @@
 Deploy de React com Vite no GitHub Pages
 
-miniblog
+Repositório: miniblog
+--------------------------------------------------------
 1- criar um repositório no GitHub
 2- enviar o projeto para o GitHub
 3- Intalar dependência npm i gh-pages --save-dev
@@ -15,3 +16,9 @@ miniblog
 
 //Barra + nome do repositório
   base:"/miniblog"
+
+
+6- Executar o comando npm run deploy
+
+
+7- No repositório, clique em Settings/Pages onde gerará o link para acesso
