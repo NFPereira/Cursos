@@ -1,0 +1,5 @@
+Variáveis
+
+let => semelhante ao var valores podem ser alterados.
+const => forma de declarar constante.
+

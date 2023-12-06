@@ -16,7 +16,8 @@ app.use(express.urlencoded({ extended: false }));
 //Solve CORS
 const corsOptions = {
   AccessControlAllowOrigin: "*",
-  origin: "http://localhost:5173",
+  origin:
+    "https://frontend-io7b5f83u-nilson-flavio-pereiras-projects.vercel.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 };
 app.use(cors(corsOptions));
