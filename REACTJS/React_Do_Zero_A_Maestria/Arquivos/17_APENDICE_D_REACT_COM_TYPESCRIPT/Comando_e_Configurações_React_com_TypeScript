@@ -1,0 +1,11 @@
+Criando projeto react com typscript com vite
+
+npm create vite@latest + nome do projeto
+
+Escolha o opção React e TypeScript
+
+cd nome do projeto
+
+npm install
+
+npm run dev
