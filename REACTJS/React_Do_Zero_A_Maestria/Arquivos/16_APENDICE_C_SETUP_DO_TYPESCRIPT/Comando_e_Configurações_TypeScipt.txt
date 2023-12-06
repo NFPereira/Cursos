@@ -1,0 +1,19 @@
+Instalar Typescript
+
+Windows PowerShell
+
+1- Checar se o nmp está instalado
+npm -v => Deverá apresentar a versão do npm instalada
+
+2- Checar se o node está instalado
+node -v => Deverá apresentar a versão do node instalada
+
+3- Instalando o typescript de forma global
+npm install typescript -g
+
+4- Checar so o typescript foi instalado
+tsc -v => deverá apresentar a versão do typescript instalada
+
+
+5- Compilar o typescript
+tsc index.ts
