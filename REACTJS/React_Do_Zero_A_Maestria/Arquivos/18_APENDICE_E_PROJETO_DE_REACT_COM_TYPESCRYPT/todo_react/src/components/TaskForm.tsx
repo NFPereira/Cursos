@@ -70,7 +70,7 @@ const TaskForm = ({
         <div className={styles.input_container}>
           <label htmlFor="difficulty">Dificuldade:</label>
           <input
-            type="text"
+            type="number"
             name="difficulty"
             placeholder="Dificuldade da tarefa"
             onChange={handleChange}
